@@ -1,0 +1,19 @@
+Source: linux-base
+Section: kernel
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>> 9), bash-completion, libtext-glob-perl, po4a
+#Vcs-Git
+#Vcs-Browser
+
+Package: linux-base
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: kernel-common (<= 13.018+nmu1)
+Replaces: kernel-common (<= 13.018+nmu1)
+Multi-Arch: foreign
+Description: Linux image base package
+ This package contains files and support scripts for all Linux
+ images.
