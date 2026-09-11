@@ -1,3 +1,9 @@
+linux-base (4.15) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 17:03:19 +0800
+
 linux-base (4.14) unstable; urgency=medium
 
   * Upload to unstable
